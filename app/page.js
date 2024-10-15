@@ -1,6 +1,6 @@
-import Image from "next/image";
-import ProductItems from "./components/ProductItem";
-import productList from "./productList";
+import ProductList from "./components/ProductList";
+
+import ProductItems from "./components/ProductItems";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         />
       </div>
 
-      <ProductItems products={productList} />
+      <ProductItems products={ProductList} />
     </>
   );
 }

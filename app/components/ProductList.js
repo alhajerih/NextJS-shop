@@ -1,4 +1,4 @@
-export const productList = [
+export const ProductList = [
   {
     id: 1,
     name: "Apple pie",
@@ -21,4 +21,5 @@ export const productList = [
       "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   },
 ];
-export default productList;
+export default ProductList;
+//ProductList
