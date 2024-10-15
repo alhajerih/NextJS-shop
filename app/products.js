@@ -11,4 +11,10 @@ export const products = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDIBKWRQWja9b128TVshvbVDNiaN__ZvyDQ&s",
   },
+  {
+    name: "Cupcake",
+    price: 10,
+    image:
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
 ];
