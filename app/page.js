@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { products } from "./products";
+import ProductItems from "./components/ProductItem";
+import productList from "./productList";
 
 export default function Home() {
   return (
@@ -14,22 +15,8 @@ export default function Home() {
           alt=""
         />
       </div>
-      <div className="product-list">
-        {products.map((product, index) => (
-          <div key={index} className="product-card">
-            <div className="image-container">
-              <img
-                src={product.image}
-                alt={product.name}
-                width={200}
-                height={300}
-              />
-            </div>
-            <h2 className="product-name">{product.name}</h2>
-            <p className="product-price">${product.price}KD</p>
-          </div>
-        ))}
-      </div>
+
+      <ProductItems products={productList} />
     </>
   );
 }
