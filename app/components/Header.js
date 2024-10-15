@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-// Keep the existing CSS file for base styles
+
 
 export default function Header() {
   // Visitor counter state
