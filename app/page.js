@@ -16,7 +16,7 @@ export default function Home() {
         />
       </div>
 
-      <ProductItems products={ProductList} />
+      <ProductList products={ProductItems} />
     </>
   );
 }
