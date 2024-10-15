@@ -37,7 +37,7 @@ export const ProductItems = [
   },
   {
     id: 6,
-    name: "croissant",
+    name: "Croissant",
     price: 1.75,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd5peNxTOyXGb6TGy9qrgPeFilfyTevgaEcQ&s",
