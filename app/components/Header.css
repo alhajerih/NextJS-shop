@@ -1,0 +1,47 @@
+/* Center the header content and layout
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  color: black;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: black;
+}
+
+/* Visitor counter and button 
+.visitor-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Space between text and button */
+/* margin-top: 20px; */ /*
+}
+*/
+/* Visitor count text */
+/* .visitor-count {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+} */
+
+/* Visited button styling */
+/* .visited-btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.visited-btn:hover {
+  background-color: #e0e0e0;
+} */
